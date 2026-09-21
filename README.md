@@ -1,5 +1,5 @@
 # real-time-task-scheduler
-My goal : 
+My goal :
 
               REAL-TIME TASK SCHEDULER
                        │
@@ -10,7 +10,7 @@ My goal :
        │               │                │
        │        ┌──────┼──────┐         │
        │        ↓      ↓      ↓         │
-       │       EDF?     RM?     DM?     │
+       │       EDF     RM     DM         │
        │                               ↓
        └──────────→ Scheduler ←──── Metrics
                        │
