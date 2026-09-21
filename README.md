@@ -1,6 +1,7 @@
 # real-time-task-scheduler
-My goal :
+## Architecture (Goal)
 
+```text
               REAL-TIME TASK SCHEDULER
                        │
        ┌───────────────┼───────────────┐
@@ -8,11 +9,11 @@ My goal :
  Task Model       Scheduling       Monitoring
        │           Algorithms           │
        │               │                │
-       │        ┌──────┼──────┐         │
-       │        ↓      ↓      ↓         │
-       │       EDF     RM     DM         │
-       │                               ↓
-       └──────────→ Scheduler ←──── Metrics
+       │        ┌───────┼───────┐       │
+       │        ↓       ↓       ↓       │
+       │       EDF?      RM?      DM?   │
+       │                                ↓
+       └──────────→ Scheduler ←───── Metrics
                        │
                        ↓
                   Execution
@@ -21,4 +22,5 @@ My goal :
               Results / Timeline
                        │
                        ↓
-                     GUI
+                      GUI
+```
